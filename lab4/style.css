@@ -1,0 +1,15 @@
+.con {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 85px;
+    border: 2px solid black;
+}
+
+div {
+   text-align: center;
+   margin-top: 60px;
+}
+
+button {
+    font-size: 1.7em;
+}
