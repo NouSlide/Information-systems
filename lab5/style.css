@@ -1,0 +1,44 @@
+body {
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+}
+
+div {
+    width: 350px;
+    background: #fff99e;
+    padding-left: 0px;
+    border-radius: 13px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+li {
+    width: 95px;
+    background: #fffcd6;
+    border-radius: 11px;
+    text-align: center;
+    padding-right: 200px;
+    padding-bottom: 3px;
+    border: 1.5px solid black;
+}
+
+li::marker {
+    content: "⚡";
+    font-size: 0.9em;
+}
+
+li::after {
+    content: "→";
+    margin-left: 190px;
+    font-size: 21px;
+}
+
+li:hover {
+    background-color: #eff6ff;
+    transform: translateX(9px);
+}
